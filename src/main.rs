@@ -1,9 +1,17 @@
 // Declare the `words` module, which contains the logic for loading word meanings from a YAML file.
 mod words;
-
 // Import the `Parser` trait and related types for working with parsed pairs.
 use pest::Parser;
 use pest_derive::Parser;
+
+mod chinese {
+    pub mod beginner_conversational {
+        pub mod unit1 {
+            pub mod generate_numbers;
+        }
+    }
+}
+use chinese::beginner_conversational::unit1::generate_numbers::generate_number_meanings;
 
 // Derive the `Parser` trait for the `ChineseParser` struct.
 #[derive(Parser)]
@@ -13,14 +21,15 @@ struct ChineseParser;
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Load word meanings from the YAML file.
     let path = "assets/beginner_conversational/unit1/english.yml";
-    let words = words::load_words(path)?;
-
+    let mut words = words::load_words(path)?;
+    generate_number_meanings(&mut words.words);
     // Example sentences to be parsed and validated.
     let sentences = vec![
-        "wǒ shì zhōng guó",
+        "wǒ shì zhōng guó rén",
         "nǐ shì yīng guó",
         "wǒ shì Alice",
         "nǐ shì Bob",
+
     ];
 
     for sentence in sentences {

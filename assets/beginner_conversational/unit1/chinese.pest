@@ -1,10 +1,12 @@
 WHITESPACE = _{ " " }
 
 
-object = { nationality | name }
+
 sentence = { pronoun ~ verb ~ object }
 pronoun = { "wǒ" | "nǐ" }
 verb = { "shì" }
-
+object = { nationality ~ person? | name }
 name = @{ ASCII_ALPHA+ }
+person = { "rén" }
+numbers = { "líng" | "yī" | "èr" | "sān" | "sì" | "wǔ" | "liù" | "qī" | "bā" | "jiǔ" | "shí" }
 nationality = @{ "zhōng guó" | "yīng guó" }

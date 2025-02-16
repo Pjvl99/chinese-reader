@@ -14,6 +14,48 @@ words:
   yīng guó:
     meaning: "Britain"
     category: "nationality"
+  yīng guó rén:
+    meaning: "British"
+    category: "nationality"
+  zhōng guó rén:
+    meaning: "Chinese"
+    category: "nationality"
+  líng:
+    meaning: "0"
+    category: "number"
+  yī:
+    meaning: "1"
+    category: "number"
+  èr:
+    meaning: "2"
+    category: "number"
+  sān:
+    meaning: "3"
+    category: "number"
+  sì:
+    meaning: "4"
+    category: "number"
+  wǔ:
+    meaning: "5"
+    category: "number"
+  liǔ:
+    meaning: "6"
+    category: "number"
+  qī:
+    meaning: "7"
+    category: "number"
+  bā:
+    meaning: "8"
+    category: "number"
+  jiǔ:
+    meaning: "9"
+    category: "number"
+  shí:
+    meaning: "10"
+    category: "number"
+  rén:
+    meaning: "person"
+    category: "noun"
   Alice:
     meaning: "Alice"
     category: "name"
