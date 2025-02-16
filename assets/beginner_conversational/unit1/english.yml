@@ -1,0 +1,22 @@
+words:
+  wǒ:
+    meaning: "I / me"
+    category: "pronoun"
+  nǐ:
+    meaning: "you"
+    category: "pronoun"
+  shì:
+    meaning: "to be"
+    category: "verb"
+  zhōng guó:
+    meaning: "China"
+    category: "nationality"
+  yīng guó:
+    meaning: "Britain"
+    category: "nationality"
+  Alice:
+    meaning: "Alice"
+    category: "name"
+  Bob:
+    meaning: "Bob"
+    category: "name"
