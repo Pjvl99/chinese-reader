@@ -11,6 +11,12 @@ words:
   zhōng guó:
     meaning: "China"
     category: "nationality"
+  měi guó:
+    meaning: "United States"
+    category: "nationality"
+  měi guó rén:
+    meaning: "North American"
+    category: "nationality"
   yīng guó:
     meaning: "Britain"
     category: "nationality"
@@ -62,3 +68,27 @@ words:
   Bob:
     meaning: "Bob"
     category: "name"
+  xiè xie:
+     meaning: "Thank you"
+     category: "greeting"
+  bú kè qi:
+     meaning: "You are welcome"
+     category: "greeting"
+  duì bu qǐ:
+     meaning: "Sorry!"
+     category: "greeting"
+  méi guān xi:
+     meaning: "It's alright"
+     category: "greeting"
+  zǎo shàng hǎo:
+     meaning: "Good morning"
+     category: "greeting"
+  wǎn shàng hǎo:
+     meaning: "Good evening"
+     category: "greeting"
+  wǎn ān:
+     meaning: "Good night"
+     category: "greeting"
+  zài jiàn:
+     meaning: "Goodbye"
+     category: "greeting"

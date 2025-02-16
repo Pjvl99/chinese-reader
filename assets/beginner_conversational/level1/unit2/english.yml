@@ -1,0 +1,82 @@
+words:
+  fǎ guó:
+    meaning: "France"
+    category: "nationality"
+  fǎ wén:
+    meaning: "French language"
+    category: "language"
+  fǎ guó rén:
+    meaning: "French"
+    category: "nationality"
+  dé guó:
+    meaning: "Germany"
+    category: "nationality"
+  dé wén:
+    meaning: "German language"
+    category: "language"
+  dé guó rén:
+    meaning: "German"
+    category: "nationality"
+  yì dà lì:
+    meaning: "Italy"
+    category: "nationality"
+  yì dà lì rén:
+    meaning: "Italian"
+    category: "nationality"
+  jiā ná dà:
+    meaning: "Canada"
+    category: "nationality"
+  jiā ná dà rén:
+    meaning: "Canadian"
+    category: "nationality"
+  zhōng wén:
+    meaning: "Chinese language"
+    category: "language"
+  yīng wén:
+    meaning: "English language"
+    category: "language"
+  hé:
+    meaning: "and / with (only used to connect words or phrases)"
+    category: "conjunction"
+  shuō:
+    meaning: "to speak"
+    category: "verb"
+  huì:
+    meaning: "Can (a learned skill)"
+    category: "verb"
+  yì diǎn(r):
+    meaning: "a little bit"
+    category: "adverb"
+  ma:
+    meaning: "Ending Particle used to convert a statement into a Yes/No question"
+    category: "particle"
+  chī:
+    meaning: "to eat"
+    category: "verb"
+  cài:
+    meaning: "cuisine / dish"
+    category: "noun"
+  ài:
+    meaning: "to love"
+    category: "verb"
+  zhōng guó cài:
+    meaning: "Chinese cuisine"
+    category: "cuisine"
+  měi guó cài:
+    meaning: "United States cuisine"
+    category: "cuisine"
+  yīng guó cài:
+    meaning: "British cuisine"
+    category: "cuisine"
+  yì dà lì cài:
+    meaning: "Italian cuisine"
+    category: "cuisine"
+  jiā ná dà cài:
+    meaning: "Canadian cuisine"
+    category: "cuisine"
+  bù:
+    meaning: "not"
+    category: "particle"
+  bú:
+    meaning: "not"
+    category: "particle"

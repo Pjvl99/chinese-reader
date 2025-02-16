@@ -1,7 +1,5 @@
 WHITESPACE = _{ " " }
 
-
-
 sentence = { pronoun ~ verb ~ object }
 pronoun = { "wǒ" | "nǐ" }
 verb = { "shì" }
