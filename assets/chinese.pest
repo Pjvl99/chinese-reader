@@ -1,8 +1,9 @@
 sentence = { word ~ (whitespace ~ word)* ~ punctuation? }
 word = { syllable+ }
-syllable = { consonant? ~ vowel ~ tone? }
-consonant = { "b" | "p" | "m" | "f" | "d" | "t" | "n" | "l" | "g" | "k" | "h" | "j" | "q" | "x" | "zh" | "ch" | "sh" | "r" | "z" | "c" | "s" | "y" | "w" }
-vowel = { "a" | "o" | "e" | "i" | "u" | "ü" }
+syllable = { pinyin_alphabet+ ~ tone }
+pinyin_alphabet = { "b" | "p" | "m" | "f" | "d" | "t" | "n" | "l" | "g" | "k" | "h" | "j" 
+| "q" | "x" | "zh" | "ch" | "sh" | "r" | "z" | "c" | "s" | "y" | "w" | "a" | "o" | "e" 
+| "i" | "u" | "ü" }
 tone = { "1" | "2" | "3" | "4" | "5" }
 whitespace = { " " }
 punctuation = { "." | "!" | "?" }

@@ -5,29 +5,17 @@ words:
   fa3 wen2:
     meaning: "French language"
     category: "language"
-  fa3 guo2 ren2:
-    meaning: "French"
-    category: "nationality"
   de2 guo2:
     meaning: "Germany"
     category: "nationality"
   de2 wen2:
     meaning: "German language"
     category: "language"
-  de2 guo2 ren2:
-    meaning: "German"
-    category: "nationality"
   yi4 da4 li3:
     meaning: "Italy"
     category: "nationality"
-  yi4 da4 li3 ren2:
-    meaning: "Italian"
-    category: "nationality"
   jia1 na4 da4:
     meaning: "Canada"
-    category: "nationality"
-  jia1 na4 da4 ren2:
-    meaning: "Canadian"
     category: "nationality"
   zhong1 wen2:
     meaning: "Chinese language"
@@ -59,21 +47,16 @@ words:
   ai4:
     meaning: "to love"
     category: "verb"
-  zhong1 guo2 cai4:
-    meaning: "Chinese cuisine"
-    category: "cuisine"
-  mei3 guo2 cai4:
-    meaning: "United States cuisine"
-    category: "cuisine"
-  ying1 guo2 cai4:
-    meaning: "British cuisine"
-    category: "cuisine"
-  yi4 da4 li3 cai4:
-    meaning: "Italian cuisine"
-    category: "cuisine"
-  jia1 na4 da4 cai4:
-    meaning: "Canadian cuisine"
-    category: "cuisine"
-  bu2:
+  bu4:
     meaning: "not"
     category: "particle"
+  xi3 huan1:
+    meaning: "to like"
+    category: "verb"
+  zhi1 dao4:
+    meaning: "to know"
+    category: "verb"
+  ming2 bai2:
+    meaning: "to understand"
+    category: "verb"
+    
