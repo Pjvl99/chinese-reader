@@ -5,34 +5,23 @@ use pest::Parser;
 use pest_derive::Parser;
 
 mod chinese {
-    pub mod beginner_conversational {
-        pub mod level1 {
-            pub mod unit1 {
-                pub mod generate_numbers;
-            }
-        }
-
-    }
+    pub mod generate_numbers;
 }
-use chinese::beginner_conversational::level1::unit1::generate_numbers::generate_number_meanings;
+use chinese::generate_numbers::generate_number_meanings;
 
 // Derive the `Parser` trait for the `ChineseParser` struct.
 #[derive(Parser)]
-#[grammar = "assets/beginner_conversational/level1/unit1/chinese.pest"]
+#[grammar = "assets/chinese.pest"]
 struct ChineseParser;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Load word meanings from the YAML file.
     let path = "assets/beginner_conversational/level1/unit1/english.yml";
     let mut words = words::load_words(path)?;
-    generate_number_meanings(&mut words.words);
+    generate_number_meanings(&mut words.words); // Generate number meanings (11-99)
     // Example sentences to be parsed and validated.
     let sentences = vec![
-        "wǒ shì zhōng guó rén",
-        "nǐ shì yīng guó",
-        "wǒ shì Alice",
-        "nǐ shì Bob",
-
+        "wo3 shi4 zhong1 guo2 ren2",
     ];
 
     for sentence in sentences {

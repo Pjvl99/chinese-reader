@@ -1,65 +1,65 @@
 words:
-  wǒ:
+  wo3:
     meaning: "I / me"
     category: "pronoun"
-  nǐ:
+  ni3:
     meaning: "you"
     category: "pronoun"
-  shì:
+  shi4:
     meaning: "to be"
     category: "verb"
-  zhōng guó:
+  zhong1 guo2:
     meaning: "China"
     category: "nationality"
-  měi guó:
+  mei3 guo2:
     meaning: "United States"
     category: "nationality"
-  měi guó rén:
+  mei3 guo2 ren2:
     meaning: "North American"
     category: "nationality"
-  yīng guó:
+  ying1 guo2:
     meaning: "Britain"
     category: "nationality"
-  yīng guó rén:
+  ying1 guo2 ren2:
     meaning: "British"
     category: "nationality"
-  zhōng guó rén:
+  zhong1 guo2 ren2:
     meaning: "Chinese"
     category: "nationality"
-  líng:
+  ling2:
     meaning: "0"
     category: "number"
-  yī:
+  yi1:
     meaning: "1"
     category: "number"
-  èr:
+  er4:
     meaning: "2"
     category: "number"
-  sān:
+  san1:
     meaning: "3"
     category: "number"
-  sì:
+  si4:
     meaning: "4"
     category: "number"
-  wǔ:
+  wu3:
     meaning: "5"
     category: "number"
-  liǔ:
+  li3:
     meaning: "6"
     category: "number"
-  qī:
+  qi1:
     meaning: "7"
     category: "number"
-  bā:
+  ba1:
     meaning: "8"
     category: "number"
-  jiǔ:
+  jiu3:
     meaning: "9"
     category: "number"
-  shí:
+  shi2:
     meaning: "10"
     category: "number"
-  rén:
+  ren2:
     meaning: "person"
     category: "noun"
   Alice:
@@ -68,27 +68,27 @@ words:
   Bob:
     meaning: "Bob"
     category: "name"
-  xiè xie:
+  xie4 xie5:
      meaning: "Thank you"
      category: "greeting"
-  bú kè qi:
+  bu2 ke4 qi5:
      meaning: "You are welcome"
      category: "greeting"
-  duì bu qǐ:
+  dui4 bu5 qi3:
      meaning: "Sorry!"
      category: "greeting"
-  méi guān xi:
+  mei2 guan1 xi5:
      meaning: "It's alright"
      category: "greeting"
-  zǎo shàng hǎo:
+  zao3 shang4 hao3:
      meaning: "Good morning"
      category: "greeting"
-  wǎn shàng hǎo:
+  wan3 shang4 hao3:
      meaning: "Good evening"
      category: "greeting"
-  wǎn ān:
+  wan3 an1:
      meaning: "Good night"
      category: "greeting"
-  zài jiàn:
+  zai4 jian4:
      meaning: "Goodbye"
      category: "greeting"

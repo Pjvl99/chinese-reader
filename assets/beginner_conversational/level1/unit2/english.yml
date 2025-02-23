@@ -1,82 +1,79 @@
 words:
-  fǎ guó:
+  fa3 guo2:
     meaning: "France"
     category: "nationality"
-  fǎ wén:
+  fa3 wen2:
     meaning: "French language"
     category: "language"
-  fǎ guó rén:
+  fa3 guo2 ren2:
     meaning: "French"
     category: "nationality"
-  dé guó:
+  de2 guo2:
     meaning: "Germany"
     category: "nationality"
-  dé wén:
+  de2 wen2:
     meaning: "German language"
     category: "language"
-  dé guó rén:
+  de2 guo2 ren2:
     meaning: "German"
     category: "nationality"
-  yì dà lì:
+  yi4 da4 li3:
     meaning: "Italy"
     category: "nationality"
-  yì dà lì rén:
+  yi4 da4 li3 ren2:
     meaning: "Italian"
     category: "nationality"
-  jiā ná dà:
+  jia1 na4 da4:
     meaning: "Canada"
     category: "nationality"
-  jiā ná dà rén:
+  jia1 na4 da4 ren2:
     meaning: "Canadian"
     category: "nationality"
-  zhōng wén:
+  zhong1 wen2:
     meaning: "Chinese language"
     category: "language"
-  yīng wén:
+  ying1 wen2:
     meaning: "English language"
     category: "language"
-  hé:
+  he2:
     meaning: "and / with (only used to connect words or phrases)"
     category: "conjunction"
-  shuō:
+  shuo1:
     meaning: "to speak"
     category: "verb"
-  huì:
+  hui4:
     meaning: "Can (a learned skill)"
     category: "verb"
-  yì diǎn(r):
+  yi4 dian(r)3:
     meaning: "a little bit"
     category: "adverb"
-  ma:
+  ma5:
     meaning: "Ending Particle used to convert a statement into a Yes/No question"
     category: "particle"
-  chī:
+  chi1:
     meaning: "to eat"
     category: "verb"
-  cài:
+  cai4:
     meaning: "cuisine / dish"
     category: "noun"
-  ài:
+  ai4:
     meaning: "to love"
     category: "verb"
-  zhōng guó cài:
+  zhong1 guo2 cai4:
     meaning: "Chinese cuisine"
     category: "cuisine"
-  měi guó cài:
+  mei3 guo2 cai4:
     meaning: "United States cuisine"
     category: "cuisine"
-  yīng guó cài:
+  ying1 guo2 cai4:
     meaning: "British cuisine"
     category: "cuisine"
-  yì dà lì cài:
+  yi4 da4 li3 cai4:
     meaning: "Italian cuisine"
     category: "cuisine"
-  jiā ná dà cài:
+  jia1 na4 da4 cai4:
     meaning: "Canadian cuisine"
     category: "cuisine"
-  bù:
-    meaning: "not"
-    category: "particle"
-  bú:
+  bu2:
     meaning: "not"
     category: "particle"
