@@ -1,0 +1,184 @@
+words:
+  bei1:
+    meaning: "glass / cup"
+    category: "noun"
+  bei1 zi5:
+    meaning: "glass / cup"
+    category: "noun"
+  ping2:
+    meaning: "bottle"
+    category: "noun"
+  ping2 zi5:
+    meaning: "bottle"
+    category: "noun"
+  liang3:
+    meaning: "2"
+    category: "number (something)"
+  jiu3:
+    meaning: "liquor / alcohol"
+    category: "noun"
+  gan1 bei1:
+    meaning: "cheers!"
+    category: "interjection"
+  ke3 le4:
+    meaning: "cola"
+    category: "noun"
+  pi2 jiu3:
+    meaning: "beer"
+    category: "noun"
+  hong2 jiu3:
+    meaning: "red wine"
+    category: "noun"
+  xue3 bi4:
+    meaning: "sprite"
+    category: "noun"
+  dou1 xi3 huan1:
+    meaning: "I like both of them"
+    category: "adverb"
+  dou1 bu4 xi3 huan1:
+    meaning: "I like neither of them"
+    category: "adverb"
+  rou4:
+    meaning: "meat"
+    category: "noun"
+  ji1:
+    meaning: "chicken"
+    category: "noun"
+  ji1 rou4:
+    meaning: "chicken meat"
+    category: "noun"
+  zhu1:
+    meaning: "pig"
+    category: "noun"
+  zhu1 rou4:
+    meaning: "pork"
+    category: "noun"
+  niu2:
+    meaning: "cow"
+    category: "noun"
+  niu2 rou4:
+    meaning: "beef"
+    category: "noun"
+  yu2:
+    meaning: "fish"
+    category: "noun"
+  yu2 rou4:
+    meaning: "fish meat"
+    category: "noun"
+  niu2 pai2:
+    meaning: "steak"
+    category: "noun"
+  zhu1 pai2:
+    meaning: "pork chop"
+    category: "noun"
+  ya1 rou4:
+    meaning: "duck meat"
+    category: "noun"
+  kao3 ya1:
+    meaning: "roasted duck"
+    category: "noun"
+  yang2:
+    meaning: "sheep"
+    category: "noun"
+  yang2 rou4:
+    meaning: "lamb"
+    category: "noun"
+  xia1:
+    meaning: "shrimp"
+    category: "noun"
+  hai3 xian1:
+    meaning: "seafood"
+    category: "noun"
+  pang2 xie4:
+    meaning: "crab"
+    category: "noun"
+  long2 xia1:
+    meaning: "lobster"
+    category: "noun"
+  niu2 nai3:
+    meaning: "milk"
+    category: "noun"
+  cheng2 zhi1:
+    meaning: "orange juice"
+    category: "noun"
+  mian4 bao1:
+    meaning: "bread"
+    category: "noun"
+  yin3 liao4:
+    meaning: "soft drinks, fountain drinks"
+    category: "noun"
+  shou4 si1:
+    meaning: "sushi"
+    category: "noun"
+  huo3 guo1:
+    meaning: "hot pot"
+    category: "noun"
+  shao1 kao3:
+    meaning: "barbeque"
+    category: "noun"
+  shu1 cai4:
+    meaning: "vegetables"
+    category: "noun"
+  shui3 guo3:
+    meaning: "fruits"
+    category: "noun"
+  chao3:
+    meaning: "fry"
+    category: "verb"
+  mian4:
+    meaning: "noodles"
+    category: "noun"
+  chao3 mian4:
+    meaning: "fried noodles"
+    category: "noun"
+  niu2 rou4 mian4:
+    meaning: "beef noodles"
+    category: "noun"
+  zhu1 rou4 mian4:
+    meaning: "pork noodles"
+    category: "noun"
+  mi3:
+    meaning: "uncooked rice"
+    category: "noun"
+  mi3 fan4:
+    meaning: "cooked rice"
+    category: "noun"
+  fan4:
+    meaning: "rice / a meal"
+    category: "noun"
+  chao3 fan4:
+    meaning: "fried rice"
+    category: "noun"
+  bao1 zi5:
+    meaning: "steamed buns"
+    category: "noun"
+  jiao3 zi5:
+    meaning: "dumplings"
+    category: "noun"
+  zhu1 rou4 jiao3 zi5:
+    meaning: "pork dumplings"
+    category: "noun"
+  sha1 la1:
+    meaning: "salad"
+    category: "noun"
+  zhou1:
+    meaning: "porridge / congee"
+    category: "noun"
+  hun2 tun5:
+    meaning: "wonton"
+    category: "noun"
+  mai3 dan1:
+    meaning: "Check, please!"
+    category: "interjection"
+  hai2 shi4:
+    meaning: "or (used in a question)"
+    category: "conjunction"
+  huo4 zhe3:
+    meaning: "or (used in a question)"
+    category: "conjunction"
+  bai3:
+    meaning: "hundred"
+    category: "numeral"
+  fen1 zhi1:
+    meaning: "(indicating a fraction)"
+    category: "numeral"

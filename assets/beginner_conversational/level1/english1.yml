@@ -83,3 +83,9 @@ words:
   zai4 jian4:
      meaning: "Goodbye"
      category: "greeting"
+  yue4:
+     meaning: "month"
+     category: "noun"
+  di4:
+    meaning: "cardinal number"
+    category: "noun"

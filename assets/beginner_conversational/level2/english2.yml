@@ -1,0 +1,59 @@
+words:
+  hen3:
+    meaning: "very / very much"
+    category: "adverb"
+  fei1 chang2:
+    meaning: "very, extremely"
+    category: "adverb"
+  ma3 ma3 hu1 hu1:
+    meaning: "so so"
+    category: "adverb"
+  hao3:
+    meaning: "good"
+    category: "adjective"
+  jue2 de5:
+    meaning: "to think / to feel (opinion)"
+    category: "verb"
+  hao3 chi1:
+    meaning: "delicious"
+    category: "adjective"
+  piao4 lian5:
+    meaning: "pretty / beautiful"
+    category: "adjective"
+  shuai4:
+    meaning: "handsome"
+    category: "adjective"
+  ke3 ai4:
+    meaning: "cute"
+    category: "adjective"
+  de5:
+    meaning: "'s (possessive particle)"
+    category: "particle"
+  ni3 de5:
+    meaning: "your / yours"
+    category: "pronoun"
+  wo3 de5:
+    meaning: "my / mine"
+    category: "pronoun"
+  zhe4:
+    meaning: "this / these"
+    category: "pronoun"
+  na4:
+    meaning: "that / those"
+    category: "pronoun"
+  na3:
+    meaning: "which"
+    category: "pronoun"
+  zhe4 li3:
+    meaning: "here"
+    category: "adverb"
+  na4 li3:
+    meaning: "there"
+    category: "adverb"
+  na3 li3:
+    meaning: "where"
+    category: "adverb"
+  zai4:
+    meaning: "to be located in/at"
+    category: "verb"
+  

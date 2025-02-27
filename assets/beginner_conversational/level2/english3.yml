@@ -1,0 +1,91 @@
+words:
+  jia1:
+    meaning: "home"
+    category: "noun"
+  zai4 jia1:
+    meaning: "at home"
+    category: "adverb"
+  xue2 xiao4:
+    meaning: "school"
+    category: "noun"
+  zai4 xue2 xiao4:
+    meaning: "at school"
+    category: "adverb"
+  xue2:
+    meaning: "study"
+    category: "noun"
+  xi3:
+    meaning: "wash"
+    category: "verb"
+  shou3:
+    meaning: "hand"
+    category: "noun"
+  xi3 shou3 jian1:
+    meaning: "restroom"
+    category: "noun"
+  xi3 shou3 jian1 zai4 na3 li3:
+    meaning: "Where is the restroom?"
+    category: "question"
+  xi3 shou3 jian1 zai4 zhe4 li3:
+    meaning: "The restroom is here"
+    category: "sentence"
+  xi3 shou3 jian1 zai4 na4 li3:
+    meaning: "The restroom is there"
+    category: "sentence"
+  ge1: ge5:
+    meaning: "older brother"
+    category: "noun"
+  di4 di5:
+    meaning: "younger brother"
+    category: "noun"
+  jie3 jie5:
+    meaning: "older sister"
+    category: "noun"
+  mei3 mei5:
+    meaning: "younger sister"
+    category: "noun"
+  xion1 di4 ji3 mei4:
+    meaning: "siblings"
+    category: "noun"
+  you3:
+    meaning: "to have"
+    category: "verb"
+  yao4:
+    meaning: "to want (something)"
+    category: "verb"
+  ye2 ye5:
+    meaning: "grandfather"
+    category: "noun"
+  nai3 nai5:
+    meaning: "grandmother"
+    category: "noun"
+  ma1 ma5:
+    meaning: "mother"
+    category: "noun"
+  ba4 ba5:
+    meaning: "father"
+    category: "noun"
+  shu1 shu5:
+    meaning: "uncle"
+    category: "noun"
+  a1 yi2:
+    meaning: "aunt"
+    category: "noun"
+  nü3 er2:
+    meaning: "daughter"
+    category: "noun"
+  er2 zi5:
+    meaning: "son"
+    category: "noun"
+  tang2:
+    meaning: "father-side"
+    category: "noun"
+  biao3:
+    meaning: "mother-side"
+    category: "noun"
+  mei2 you3:
+    meaning: "not have"
+    category: "verb"
+  qian2:
+    meaning: "money"
+    category: "noun"
