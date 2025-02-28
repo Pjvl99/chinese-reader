@@ -1,0 +1,81 @@
+words:
+  ge5:
+    meaning: "generic measure word or classifier"
+    category: "noun"
+  tai4 tai5:
+    meaning: "wife / Mrs"
+    category: "noun"
+  du2 sheng1 zi3 nü3:
+    meaning: "only child"
+    category: "noun"
+  qing3:
+    meaning: "please"
+    category: "particle"
+  zai4:
+    meaning: "again"
+    category: "particle"
+  bian4:
+    meaning: "time (frequency)"
+    category: "noun"
+  dui4:
+    meaning: "correct / right"
+    category: "adjective"
+  bu2 dui4:
+    meaning: "wrong / incorrect"
+    category: "adjective"
+  qing3 zai4 shuo1 yi2 bian4:
+    meaning: "please say it again"
+    category: "particle"
+  dui4 bu2 dui4:
+    meaning: "right?"
+    category: "particle"
+  shem2 me5:
+    meaning: "what"
+    category: "pronoun"
+  jiao4:
+    meaning: "to be called / to be named"
+    category: "verb"
+  ming2 zi5:
+    meaning: "name"
+    category: "noun"
+  ne5:
+    meaning: "ending particle used for a follow-up question"
+    category: "particle"
+  ni3 jiao4 shen2 me5 ming2 zi5:
+    meaning: "what is your name?"
+    category: "question"
+  wo3 jiao4:
+    meaning: "my name is"
+    category: "particle"
+  ni3 ne5:
+    meaning: "what about you?"
+    category: "question"
+  ni3 de5 mei4 mei5 ne5:
+    meaning: "what about your younger sister?"
+    category: "question"
+  ying1 wen2 ne5:
+    meaning: "what about english?"
+    category: "question"
+  ren4 shi5:
+    meaning: "to know (somebody personally)"
+    category: "verb"
+  gao1:
+    meaning: "high / tall"
+    category: "adjective"
+  gao1 xing4:
+    meaning: "happy / glad"
+    category: "adjective"
+  ye3:
+    meaning: "also"
+    category: "particle"
+  wo3 hen3 gao1 xing4 ren4 shi5 ni3:
+    meaning: "I'm very happy to meet you"
+    category: "particle"
+  wo3 ye3 shi4:
+    meaning: "Me, too / Likewise"
+    category: "particle"
+  jiao4 shen2 me5:
+    meaning: "What is it?"
+    category: "question"
+
+    

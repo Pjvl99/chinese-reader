@@ -1,0 +1,107 @@
+words:
+  shen2 me5:
+    meaning: "what"
+    category: "pronoun"
+  zuo4:
+    meaning: "to do"
+    category: "verb"
+  gong1 zuo4:
+    meaning: "to work (verb) work / job (noun)"
+    category: "verb / noun"
+  ni3 de5 gong1 zuo4:
+    meaning: "your job"
+    category: "noun"
+  lao3 shi1:
+    meaning: "teacher"
+    category: "noun"
+  xue2 sheng1:
+    meaning: "student"
+    category: "noun"
+  xue2:
+    meaning: "to study, to learn"
+    category: "verb"
+  kuai4 ji4 shi1:
+    meaning: "Accountant"
+    category: "noun"
+  yan3 yuan2:
+    meaning: "actor"
+    category: "noun"
+  yi4 shu4 jia1:
+    meaning: "artist"
+    category: "noun"
+  yun4 dong4 yuan2:
+    meaning: "athlete"
+    category: "noun"
+  shang1 ren2:
+    meaning: "business person"
+    category: "noun"
+  chu2 shi1:
+    meaning: "chef"
+    category: "noun"
+  ya2 yi1:
+    meaning: 'dentist'
+    category: 'noun'
+  she4 ji4 shi1:
+    meaning: "designer"
+    category: "noun"
+  yi1 sheng1:
+    meaning: "doctor"
+    category: "noun"
+  gong1 cheng2 shi1:
+    meaning: "engineer"
+    category: "noun"
+  jia1 ting2 zhu3 fu4:
+    meaning: "housewife"
+    category: "noun"
+  ji4 zhe3:
+    meaning: "journalist / reporter"
+    category: "noun"
+  lü4 shi1:
+    meaning: "lawyer"
+    category: "noun"
+  jing1 li3:
+    meaning: "manager"
+    category: "noun"
+  yin1 yue4 jia1:
+    meaning: "musician"
+    category: "noun"
+  hu4 shi5:
+    meaning: "nurse"
+    category: "noun"
+  jing3 cha2:
+    meaning: "policeman"
+    category: "noun"
+  dian4 nao3 bian1 cheng2 shi1:
+    meaning: "programmer"
+    category: "noun"
+  da4 xue2 jiao4 shou4:
+    meaning: "professor"
+    category: "noun"
+  ke1 xue2 jia1:
+    meaning: "scientist"
+    category: "noun"
+  mi4 shu1:
+    meaning: "secretary"
+    category: "noun"
+  zuo4 jia1:
+    meaning: "writer"
+    category: "noun"
+  wo3 you3 hen3 duo1 gong1 zuo4:
+    meaning: "I have a lot of work to do"
+    category: "exclamation"
+  ni3 zuo4 shen2 me5 gong1 zuo4:
+    meaning: "what do you do"
+    category: "question"
+  zhou1 mo4:
+    meaning: "weekend"
+    category: "noun"
+  xue2 zhong1 wem2:
+    meaning: "to learn chinese"
+    category: "verb"
+  ting1:
+    meaning: "to listen"
+    category: "verb"
+  yin1 yue4:
+    meaning: "music"
+    category: "noun"
+  
