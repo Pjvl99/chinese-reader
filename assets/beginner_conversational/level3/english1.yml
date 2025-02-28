@@ -1,0 +1,106 @@
+words:
+  kan4:
+    meaning: "to look / read (magazines) / to watch (TV)"
+    category: "verb"
+  kan4 shu1:
+    meaning: "to read (books)"
+    category: "verb"
+  shu1:
+    meaning: "book"
+    category: "noun"
+  dian4 ying3:
+    meaning: "movie"
+    category: "noun"
+  dian4 shi4:
+    meaning: "TV"
+    category: "noun"
+  dian4 nao3:
+    meaning: "computer"
+    category: "noun"
+  ta3:  
+    meaning: "he / she / it / him / her"
+    category: "pronoun"
+  ta3 de5:
+    meaning: "his / her / hers / its"
+    category: "pronoun"
+  you3 yi4 si5:
+    meaning: "interesting"
+    category: "adjective"
+  wo3 ye3 shi4:
+    meaning: "Me, too / Likewise"
+    category: "particle"
+  ta1 hen3 you3 yi4 si5:
+    meaning: "He / She / It is very interesting"
+    category: "particle"
+  yu3 yan2:
+    meaning: "speak / language"
+    category: "noun"
+  yu3:
+    meaning: "speak / language"
+    category: "noun"
+  mo4 xi1 ge1 ren2:
+    meaning: "Mexican"
+    category: "noun"
+  xi1 ban1 ya2 yu3:
+    meaning: "Spanish"
+    category: "noun"
+  fei1 lü4 bin1 yu3:
+    meaning: "Filipino"
+    category: "noun"
+  ying1 yu3:
+    meaning: "English"
+    category: "noun"
+  han4 yu3:
+    meaning: "Mandarin"
+    category: "noun"
+  ri4 yu3:
+    meaning: "Japanese"
+    category: "noun"
+  fa3 yu3:
+    meaning: "French"
+    category: "noun"
+  de5 yu3:
+    meaning: "German"
+    category: "noun"
+  a1 la1 bo2 yu3:
+    meaning: "Arabic"
+    category: "noun"
+  han4 yu3 pu3 tong1 hua4:
+    meaning: "Mandarin Chinese"
+    category: "noun"
+  pu3 tong1 hua4:
+    meaning: "Mandarin"
+    category: "noun"
+  cheng2 zhi1:
+    meaning: "orange juice"
+    category: "noun"
+  ping2 guo3 zhi1:
+    meaning: "apple juice"
+    category: "noun"
+  jiu3:
+    meaning: "alcohol"
+    category: "noun"
+  xi3 huan he1 shen2 me jiu3:
+    meaning: "What kind of alcohol do you like?"
+    category: "question"
+  bai2 jiu3:
+    meaning: "Chinese white liquor"
+    category: "noun"
+  zhen1 de5 ma5:
+    meaning: "Really?"
+    category: "particle"
+  dui4:
+    meaning: "Yes"
+    category: "particle"
+  pu2 tao5 jiu3:
+    meaning: "Wine"
+    category: "noun"
+  hong2 jiu3:
+    meaning: "Red wine"
+    category: "noun"
+  bai2 pu2 tao5 jiu3:
+    meaning: "White wine"
+    category: "noun"
+  hong2 pu2 tao5 jiu3:
+    meaning: "Red grape alcohol"
+    category: "noun"

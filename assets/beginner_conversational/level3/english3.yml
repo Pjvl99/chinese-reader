@@ -1,0 +1,47 @@
+words:
+  shuo1 ji3 ju4:
+    meaning: "Say a few sentences"
+    category: "exclamation"
+  kan4 dian4 ying(r)3:
+    meaning: "Watch movies"
+    category: "verb"
+  wei4 shen2 me5:
+    meaning: "Why?"
+    category: "question"
+  guang4 jie1:
+    meaning: "Stroll in the streets (window shopping)"
+    category: "verb"
+  gan4:
+    meaning: "to do"
+    category: "verb"
+  nan2 ren2:
+    meaning: "man / men"
+    category: "noun"
+  nu3 ren2:
+    meaning: "woman / women"
+    category: "noun"
+  hai2 zi5:
+    meaning: "child / children / kid"
+    category: "noun"
+  nü3 hai2 zi5:
+    meaning: "girl"
+    category: "noun"
+  nan2 hai2 zi5:
+    meaning: "boy"
+    category: "noun"
+  ni3 shi4 shei2:
+    meaning: "Who are you?"
+    category: "question"
+  ta1 shi4 shei2:
+    meaning: "Who is he / she?"
+    category: "question"
+  zhe4 shi4 ni3 de5 nan2 peng2 you5 ma5:
+    meaning: "Is this your boyfriend?"
+    category: "question"
+  zhe4 shi4 ni3 de5 nu3 peng2 you5 ma5:
+    meaning: "Is this your girlfriend?"
+    category: "question"
+  hen3 shuai4:
+    meaning: "He is handsome"
+    category: "exclamation"
+    

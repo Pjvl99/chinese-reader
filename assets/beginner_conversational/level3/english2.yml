@@ -1,0 +1,79 @@
+words:
+  xiang3:
+    meaning: "to want to (do something), would like to (do something)"
+    category: "verb"
+  fan4:
+    meaning: "a meal / rice"
+    category: "noun"
+  dong1:
+    meaning: "east"
+    category: "noun"
+  xi1:
+    meaning: "west"
+    category: "noun"
+  dong1 xi1:
+    meaning: "things / stuff (tangible)"
+    category: "noun"
+  qu4:
+    meaning: "to go"
+    category: "verb"
+  zai4 nai3 li3:
+    meaning: "where is / where are?"
+    category: "question"
+  qu4 na3 li3:
+    meaning: "go where"
+    category: "verb"
+  chu1 zu1 che1:
+    meaning: "taxi"
+    category: "noun"
+  chang2 cheng:
+    meaning: "The great wall"
+    category: "noun"
+  sui2 bian4:
+    meaning: "whatever"
+    category: "pronoun"
+  na3 li3 na3 li3:
+    meaning: "Not really / Not at all"
+    category: "exclamation"
+  tai4:
+    meaning: "too (big, small)"
+    category: "adverb"
+  da4:
+    meaning: "big"
+    category: "adjective"
+  xiao3:
+    meaning: "small"
+    category: "adjective"
+  gui4:
+    meaning: "expensive"
+    category: "adjective"
+  jia1:
+    meaning: "add"
+    category: "verb"
+  you2:
+    meaning: "oil"
+    category: "pronoun"
+  ba5:
+    meaning: "ending particle (to change a statement into a suggestion)"
+    category: "particle"
+  tai4 hao3 le5:
+    meaning: "Wonderful, great (in response to a suggestion!)"
+    category: "exclamation"
+  tai4 xiao3 le5:
+    meaning: "Too small!"
+    category: "exclamation"
+  tai4 da4 le5:
+    meaning: "Too big!"
+    category: "exclamation"
+  tai4 gui4 le5:
+    meaning: "Too expensive!"
+    category: "exclamation"
+  jia3 you2:
+    meaning: "Pump it up! - Encouring phrase!"
+    category: "exclamation"
+  wo3 men5:
+    meaning: "We"
+    category: "pronoun"
+  wo3 men5 qu4 chi1 fan4 ba5:
+    meaning: "Let's go eat"
+    category: "exclamation"
