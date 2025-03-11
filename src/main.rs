@@ -3,7 +3,13 @@ mod words;
 use std::fs;
 // Import the `Parser` trait and related types for working with parsed pairs.
 use pest::Parser;
+use std::fs::File;
 use pest_derive::Parser;
+use arrow::array::StringArray;
+use arrow::record_batch::RecordBatch;
+use arrow::datatypes::{Schema, Field, DataType};
+use std::sync::Arc;
+use parquet::arrow::arrow_writer::ArrowWriter;
 
 mod chinese {
     pub mod generate_numbers;
@@ -26,8 +32,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     generate_number_meanings(&mut words.words); // Generate number meanings (11-99)
 
     // Example sentences to be parsed and validated.
-    let sentences = vec!["wo3 shi4 zhong1 guo2 ren2", "wo3 bu4 xi3 huan1 chi1 zhong1 guo2 cai4"];
-
+    let sentences = generate_random_sentences(1000); 
+    let mut parsed_data = Vec::new();
     // Process each sentence.
     for sentence in sentences {
         let trimmed_sentence = sentence.trim();
@@ -47,6 +53,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                         // If the word is not in the dictionary, skip printing its definition.
                         if let Some(definition) = words.words.get(&final_words) {
                             println!("  {}: {} ({})", final_words, definition.meaning, definition.category);
+                            parsed_data.push((word.to_string(), definition.meaning.clone(), definition.category.clone()));
                             final_words.clear(); // Reset the buffer after printing the definition.
                         }
                     }
@@ -59,8 +66,18 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             Err(e) => println!("Invalid sentence: {}, error: {}", trimmed_sentence, e),
         }
     }
-
+    write_to_parquet(&parsed_data, "output.parquet")?;
     Ok(())
+}
+
+fn generate_random_sentences(count: usize) -> Vec<String> {
+    let words = vec!["wo3", "shi4", "zhong1", "guo2", "ren2"];
+    let mut sentences = Vec::new();
+    for _ in 0..count {
+        sentences.push(words.join(" "));
+    }
+
+    sentences
 }
 
 fn load_yml_files_recursive(dir_path: &str, words: &mut words::WordsYaml) -> Result<(), Box<dyn std::error::Error>> {
@@ -83,5 +100,30 @@ fn load_yml_files_recursive(dir_path: &str, words: &mut words::WordsYaml) -> Res
         }
     }
 
+    Ok(())
+}
+
+fn write_to_parquet(data: &[(String, String, String)], file_path: &str) -> Result<(), Box<dyn std::error::Error>> {
+    let schema = Arc::new(Schema::new(vec![
+        Field::new("word", DataType::Utf8, false),
+        Field::new("meaning", DataType::Utf8, false),
+        Field::new("category", DataType::Utf8, false),
+    ]));
+
+    let words = StringArray::from(data.iter().map(|(w,_,_)| w.as_str()).collect::<Vec<_>>());
+    let meanings = StringArray::from(data.iter().map(|(_,m,_)| m.as_str()).collect::<Vec<_>>());
+    let categories = StringArray::from(data.iter().map(|(_,_,c)| c.as_str()).collect::<Vec<_>>());
+
+    let batch = RecordBatch::try_new(
+        schema.clone(),
+        vec![Arc::new(words), Arc::new(meanings), Arc::new(categories)],
+    )?;
+
+    let file = File::create(file_path)?;
+    let mut writer = ArrowWriter::try_new(file, schema, None)?;
+    writer.write(&batch)?;
+    writer.close()?;
+
+    println!("Data written to {}", file_path);
     Ok(())
 }
