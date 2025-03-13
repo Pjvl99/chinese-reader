@@ -8,9 +8,12 @@ use pest_derive::Parser;
 use arrow::array::StringArray;
 use arrow::record_batch::RecordBatch;
 use arrow::datatypes::{Schema, Field, DataType};
+use aws_sdk_s3::primitives::ByteStream;
 use std::sync::Arc;
 use parquet::arrow::arrow_writer::ArrowWriter;
-
+use aws_sdk_s3::Client;
+use std::path::Path;
+use std::error::Error;
 mod chinese {
     pub mod generate_numbers;
 }
@@ -20,8 +23,8 @@ use chinese::generate_numbers::generate_number_meanings;
 #[derive(Parser)]
 #[grammar = "assets/chinese.pest"]
 struct ChineseParser;
-
-fn main() -> Result<(), Box<dyn std::error::Error>> {
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Load word meanings from the YAML file.
     let root_dir = "assets/beginner_conversational";
 
@@ -125,5 +128,28 @@ fn write_to_parquet(data: &[(String, String, String)], file_path: &str) -> Resul
     writer.close()?;
 
     println!("Data written to {}", file_path);
+    Ok(())
+}
+
+async fn upload_parquet_to_s3(
+    client: &Client,
+    bucket_name: &str,
+    file_path: &str,
+    s3_key: &str,
+) -> Result<(), Box<dyn Error>> {
+    // Read the `.parquet` file into a byte stream
+    let body = ByteStream::from_path(Path::new(file_path)).await?;
+
+    // Upload the file to S3
+    client
+        .put_object()
+        .bucket(bucket_name)
+        .key(s3_key)
+        .body(body)
+        .send()
+        .await?;
+
+    println!("File uploaded successfully to S3: s3://{}/{}", bucket_name, s3_key);
+
     Ok(())
 }
